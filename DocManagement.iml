@@ -7,5 +7,21 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="controlsfx-8.40.11" level="application" />
+    <orderEntry type="library" name="jar_files material" level="application" />
+    <orderEntry type="library" name="jar_file" level="project" />
+    <orderEntry type="library" name="jar_files fontawsome 8" level="application" />
+    <orderEntry type="library" name="jar_files gson" level="application" />
+    <orderEntry type="library" name="jar_file 1" level="application" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="AnimateFX-1.2.1" level="project" />
+    <orderEntry type="library" name="fontawesomefx-8.0.8" level="project" />
+    <orderEntry type="library" name="fontawesomefx-8.9" level="project" />
+    <orderEntry type="library" name="gson-2.8.2" level="project" />
+    <orderEntry type="library" name="javax.mail" level="project" />
+    <orderEntry type="library" name="jfoenix-8.0.10" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.11" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.22" level="project" />
+    <orderEntry type="library" name="activation-1.1.1" level="project" />
   </component>
 </module>
