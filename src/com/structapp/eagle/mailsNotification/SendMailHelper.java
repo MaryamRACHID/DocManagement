@@ -26,8 +26,8 @@ public class SendMailHelper {
     }*/
 
     public void sendEmail() throws MessagingException {
-        String fromUser = "maryamrachidgi@gmail.com";  //Enter sender email id
-        String fromUserPassword = "xldkbtlgldfblgmk";  //Enter sender gmail password , this will be authenticated by gmail smtp server
+        String fromUser = "egce.notification@gmail.com";  //Enter sender email id
+        String fromUserPassword = "bfkzgasujtcbchwj";  //xldkbtlgldfblgmk bfkzgasujtcbchwjEnter sender gmail password , this will be authenticated by gmail smtp server
         String emailHost = "smtp.gmail.com";
         Transport transport = newSession.getTransport("smtp");
         transport.connect(emailHost, fromUser, fromUserPassword);

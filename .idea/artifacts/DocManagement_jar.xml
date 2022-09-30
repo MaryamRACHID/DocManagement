@@ -3,10 +3,9 @@
     <output-path>$PROJECT_DIR$/out/artifacts/DocManagement_jar</output-path>
     <root id="archive" name="DocManagement.jar">
       <element id="module-output" name="DocManagement" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-8.9.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.11.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.22.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/javax.mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gson-2.8.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Nouveau dossier/jar_files fontawsome 8/fontawesomefx-8.0.8.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-glyphsbrowser-1.3.0/lib/controlsfx-8.40.11.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-glyphsbrowser-1.3.0/lib/fontawesomefx-commons-8.15.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-glyphsbrowser-1.3.0/lib/fontawesomefx-controls-8.15.jar" path-in-jar="/" />
@@ -18,24 +17,25 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-glyphsbrowser-1.3.0/lib/fontawesomefx-materialicons-2.2.0-5.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-glyphsbrowser-1.3.0/lib/fontawesomefx-weathericons-2.0.10-5.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-glyphsbrowser-1.3.0/lib/fontawesomefx-materialdesignfont-1.7.22-4.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/Downloads/Nouveau dossier/jar_files fontawsome 8/fontawesomefx-8.0.8.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/Downloads/Nouveau dossier/jar_file/protobuf-java-2.6.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/Downloads/Nouveau dossier/jar_file/mysql-connector-java-8.0.11.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-8.0.8.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gson-2.8.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/Downloads/Nouveau dossier/jar_files gson/gson-2.8.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/Downloads/Nouveau dossier/controlsfx-8.40.11.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/AnimateFX-1.2.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jfoenix-8.0.10.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/activation-1.1.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/Downloads/Nouveau dossier/jar_files material/fontawesomefx-8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Nouveau dossier/jar_files gson/gson-2.8.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jfoenix-8.0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/AnimateFX-1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fontawesomefx-8.0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/activation-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.22.jar" path-in-jar="/" />
       <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/vcruntime140_1.dll" />
       <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/vcruntime140.dll" />
       <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/ucrtbase.dll" />
       <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/prism_sw.dll" />
       <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/prism_d3d.dll" />
-      <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/prism_common.dll" />
       <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/msvcp140.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/prism_common.dll" />
       <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/jfxwebkit.dll" />
       <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/jfxmedia.dll" />
       <element id="file-copy" path="$PROJECT_DIR$/../../../../../../javafx-sdk-18.0.2/bin/javafx_iio.dll" />

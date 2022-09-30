@@ -27,16 +27,16 @@
             <TableView fx:id="tblUsers" layoutX="11.0" layoutY="74.0" prefHeight="477.0" prefWidth="909.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="74.0">
                <columns>
                   <TableColumn fx:id="colId" maxWidth="1200.0" minWidth="0.0" prefWidth="62.0" text="Id" />
-                  <TableColumn fx:id="colName" prefWidth="198.0" text="User name" />
-                  <TableColumn fx:id="colUser" prefWidth="158.0" text="User" />
-                  <TableColumn fx:id="colPassword" prefWidth="172.0" text="Password" />
-                  <TableColumn fx:id="colTypeUser" prefWidth="96.0" text="Type of user" />
+                  <TableColumn fx:id="colName" prefWidth="198.0" text="Nom et Prénom" />
+                  <TableColumn fx:id="colUser" prefWidth="158.0" text="Asresse E-mail" />
+                  <TableColumn fx:id="colPassword" prefWidth="172.0" text="Mot de passe" />
+                  <TableColumn fx:id="colTypeUser" prefWidth="96.0" text="Type de l'utilisateur" />
                </columns>
                <columnResizePolicy>
                   <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                </columnResizePolicy>
             </TableView>
-            <JFXButton fx:id="btnNewUser" layoutX="761.0" layoutY="17.0" onMouseClicked="#showDialogAddUser" prefHeight="39.0" prefWidth="155.0" styleClass="action-button" text="New user" textFill="WHITE" AnchorPane.rightAnchor="14.0">
+            <JFXButton fx:id="btnNewUser" layoutX="761.0" layoutY="17.0" onMouseClicked="#showDialogAddUser" prefHeight="39.0" prefWidth="155.0" styleClass="action-button" text="Nouvel utilisateur" textFill="WHITE" AnchorPane.rightAnchor="14.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -50,9 +50,9 @@
                </padding>
                <children>
                   <FontAwesomeIconView glyphName="SEARCH" opacity="0.5" size="20" translateY="10.0" HBox.hgrow="ALWAYS" />
-                  <TextField fx:id="txtSearchName" layoutX="233.0" layoutY="10.0" onKeyReleased="#filterName" prefHeight="25.0" prefWidth="326.0" promptText="Search name" styleClass="text-field-search" translateY="10.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="txtSearchName" layoutX="233.0" layoutY="10.0" onKeyReleased="#filterName" prefHeight="25.0" prefWidth="326.0" promptText="Rechercher par nom" styleClass="text-field-search" translateY="10.0" HBox.hgrow="ALWAYS" />
                   <FontAwesomeIconView glyphName="SEARCH" opacity="0.5" size="20" translateY="10.0" HBox.hgrow="ALWAYS" />
-                  <TextField fx:id="txtSearchUser" onKeyReleased="#filterUser" prefHeight="25.0" prefWidth="339.0" promptText="Search user" styleClass="text-field-search" translateY="10.0" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="txtSearchUser" onKeyReleased="#filterUser" prefHeight="25.0" prefWidth="339.0" promptText="Chercher un utilisateur" styleClass="text-field-search" translateY="10.0" HBox.hgrow="ALWAYS" />
                </children>
             </HBox>
             <AnchorPane fx:id="deleteUserContainer" layoutX="279.0" layoutY="206.0" prefHeight="246.0" prefWidth="392.0" visible="false">
@@ -87,17 +87,17 @@
             </AnchorPane>
             <AnchorPane fx:id="addUserContainer" layoutX="176.0" layoutY="163.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="259.0" prefWidth="600.0" style="-fx-background-radius: 10;" visible="false">
                <children>
-                  <JFXTextField fx:id="txtName" focusColor="#2ab56f" labelFloat="true" layoutX="42.0" layoutY="77.0" prefHeight="25.0" prefWidth="239.0" promptText="Name" styleClass="jfx-text-field" unFocusColor="#bebec2">
+                  <JFXTextField fx:id="txtName" focusColor="#2ab56f" labelFloat="true" layoutX="42.0" layoutY="77.0" prefHeight="25.0" prefWidth="239.0" promptText="Nom complet" styleClass="jfx-text-field" unFocusColor="#bebec2">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="txtUser" focusColor="#2ab56f" labelFloat="true" layoutX="303.0" layoutY="77.0" prefHeight="25.0" prefWidth="239.0" promptText="User" styleClass="jfx-text-field" unFocusColor="#bebec2">
+                  <JFXTextField fx:id="txtUser" focusColor="#2ab56f" labelFloat="true" layoutX="303.0" layoutY="77.0" prefHeight="25.0" prefWidth="239.0" promptText="Adresse E-mail" styleClass="jfx-text-field" unFocusColor="#bebec2">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </JFXTextField>
-                  <JFXPasswordField fx:id="pfPassword" focusColor="#2ab56f" labelFloat="true" layoutX="42.0" layoutY="152.0" prefHeight="30.0" prefWidth="239.0" promptText="Password" styleClass="jfx-text-field" unFocusColor="#bebec2">
+                  <JFXPasswordField fx:id="pfPassword" focusColor="#2ab56f" labelFloat="true" layoutX="42.0" layoutY="152.0" prefHeight="30.0" prefWidth="239.0" promptText="Mot de passe" styleClass="jfx-text-field" unFocusColor="#bebec2">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -107,18 +107,18 @@
                         <Font size="14.0" />
                      </font>
                   </JFXTextField>
-                  <JFXComboBox fx:id="cmbTypeUser" focusColor="#2ab56f" labelFloat="true" layoutX="300.0" layoutY="152.0" prefHeight="30.0" prefWidth="239.0" promptText="Select type of user" styleClass="jfx-combo-box" unFocusColor="#bebec2" />
-                  <JFXButton fx:id="btnUpdateUser" layoutX="312.0" layoutY="219.0" onMouseClicked="#updateUser" prefHeight="25.0" prefWidth="131.0" styleClass="action-button" text="Update" textFill="WHITE">
+                  <JFXComboBox fx:id="cmbTypeUser" focusColor="#2ab56f" labelFloat="true" layoutX="300.0" layoutY="152.0" prefHeight="30.0" prefWidth="239.0" promptText="Type de l'utilisateur" styleClass="jfx-combo-box" unFocusColor="#bebec2" />
+                  <JFXButton fx:id="btnUpdateUser" layoutX="312.0" layoutY="219.0" onMouseClicked="#updateUser" prefHeight="25.0" prefWidth="131.0" styleClass="action-button" text="Modifier" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton fx:id="btnSaveUser" layoutX="312.0" layoutY="219.0" onMouseClicked="#newUser" prefHeight="25.0" prefWidth="131.0" styleClass="action-button" text="Save" textFill="WHITE">
+                  <JFXButton fx:id="btnSaveUser" layoutX="312.0" layoutY="219.0" onMouseClicked="#newUser" prefHeight="25.0" prefWidth="131.0" styleClass="action-button" text="Enregistrer" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="166.0" layoutY="219.0" onMouseClicked="#closeDialogAddUser" prefHeight="25.0" prefWidth="131.0" styleClass="button-cancel" text="Cancel">
+                  <JFXButton layoutX="166.0" layoutY="219.0" onMouseClicked="#closeDialogAddUser" prefHeight="25.0" prefWidth="131.0" styleClass="button-cancel" text="Annuler">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>

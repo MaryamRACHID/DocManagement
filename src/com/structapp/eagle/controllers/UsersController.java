@@ -1,18 +1,3 @@
-/*
- * Copyright 2020-2021 LaynezCode
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.structapp.eagle.controllers;
 
 import com.jfoenix.controls.JFXButton;
@@ -65,11 +50,11 @@ import java.util.logging.Logger;
 
 public class UsersController implements Initializable {
 
-    private final String CANNOT_DELETED = "This user cannot be deleted";
+    private final String CANNOT_DELETED = "Cet utilisateur ne peut pas être supprimé";
 
-    private final String ADMINISTRATOR_ONLY = "This user can only be administrator type";
+    private final String ADMINISTRATOR_ONLY = "Cet utilisateur ne peut être que de type administrateur";
 
-    private final String UNABLE_TO_CHANGE = "Unable to change user type";
+    private final String UNABLE_TO_CHANGE = "Impossible de modifier le type d'utilisateur";
 
     @FXML
     private StackPane stckUsers;
@@ -217,7 +202,7 @@ public class UsersController implements Initializable {
     }
 
     private void initalizeComboBox() {
-        cmbTypeUser.getItems().addAll("Administrator", "User");
+        cmbTypeUser.getItems().addAll("Administrateur", "Utilisateur");
         cmbTypeUser.focusedProperty().addListener((o, oldV, newV) -> {
             if (!oldV) {
                 cmbTypeUser.show();
@@ -697,7 +682,7 @@ public class UsersController implements Initializable {
             button.setPrefWidth(colTypeUser.getWidth() / 0.5);
             button.setText(item.getUserType());
 
-            if (item.getUserType().equals("Administrator")) {
+            if (item.getUserType().equals("Administrateur")) {
                 button.getStyleClass().addAll("button-administrador", "table-row-cell");
             } else {
                 button.getStyleClass().addAll("button-user", "table-row-cell");

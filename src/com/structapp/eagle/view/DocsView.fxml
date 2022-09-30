@@ -143,8 +143,8 @@
                               <Image url="@../../../../resources/media/usb.png" />
                            </image>
                         </ImageView>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="h4" text="Are you sure to remove this Document permanently?" textAlignment="CENTER" wrappingWidth="250.6171875" />
-                        <Text fill="#bebec2" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="h5" text="Information cannot be retrieved" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="h4" text="Êtes-vous sûr de supprimer définitivement ce document?" textAlignment="CENTER" wrappingWidth="250.6171875" />
+                        <Text fill="#bebec2" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="h5" text="Les informations ne peuvent pas être récupérées" />
                      </children>
                   </VBox>
                </children>

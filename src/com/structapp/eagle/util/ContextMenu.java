@@ -119,7 +119,7 @@ public class ContextMenu {
         style(refresh);
 
         VBox contextMenu = new VBox();
-        contextMenu.setPrefSize(100, 130);
+        contextMenu.setPrefSize(120, 130);
         contextMenu.getChildren().addAll(edit, delete, details, refresh);
 
         return contextMenu;

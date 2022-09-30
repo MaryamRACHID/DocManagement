@@ -7,9 +7,6 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 
-/**
- * @autor Mateus Viccari by Stack Overflow https://stackoverflow.com/questions/19924852/autocomplete-combobox-in-javafx
- */
 public class AutocompleteComboBox {
 
     public interface AutoCompleteComparator<T> {

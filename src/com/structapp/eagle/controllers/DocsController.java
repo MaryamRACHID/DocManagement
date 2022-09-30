@@ -549,7 +549,7 @@ public class DocsController implements Initializable {
 
     private void validateUser() {
         setContextMenu();
-        if (DatabaseHelper.getUserType().equals("Administrator")) {
+        if (DatabaseHelper.getUserType().equals("Administrateur")) {
             deleteUserDeleteKey();
 
             colExpiration.setVisible(true);

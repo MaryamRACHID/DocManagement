@@ -406,7 +406,7 @@
     -fx-text-fill: -secondary;
     -fx-font-size: 15;
     -fx-pref-height: 32.5px;
-    -fx-pref-width: 100px;
+    -fx-pref-width: 120px;
 }
 
 .button-context-menu  .glyph-icon {
@@ -420,7 +420,7 @@
     -fx-text-fill: white;
     -fx-font-size: 15;
     -fx-pref-height: 32.5px;
-    -fx-pref-width: 100px;
+    -fx-pref-width: 120px;
 }
 
 .button-context-menu:hover .glyph-icon, 
